@@ -11,12 +11,9 @@ export default defineUserConfig({
 
   base: '/vuepress-blog/',
 
-  contributors: [
-    'Odeilly',
-  ],
-
   theme: defaultTheme({
     // logo: 'https://vuejs.press/images/hero.png',
+    contributors: "Odeilly",
 
     navbar: [
       '/',
