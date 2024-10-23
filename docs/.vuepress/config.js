@@ -11,6 +11,10 @@ export default defineUserConfig({
 
   base: '/vuepress-blog/',
 
+  contributors: [
+    'Odeilly',
+  ],
+
   theme: defaultTheme({
     // logo: 'https://vuejs.press/images/hero.png',
 
@@ -140,4 +144,6 @@ export default defineUserConfig({
   ],
 
   bundler: viteBundler(),
+
+  port: 9001,
 })
