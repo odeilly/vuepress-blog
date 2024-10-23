@@ -9,6 +9,8 @@ export default defineUserConfig({
   title: 'Blog Sample',
   description: 'Blog Sample',
 
+  base: '/vuepress-blog/',
+
   theme: defaultTheme({
     // logo: 'https://vuejs.press/images/hero.png',
 
